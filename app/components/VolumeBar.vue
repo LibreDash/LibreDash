@@ -3,7 +3,7 @@ const colapse = ref<boolean>(true);
 </script>
 
 <template>
-  <div class="pointer-events-auto absolute z-50 flex w-16 flex-col-reverse">
+  <div class="pointer-events-auto fixed z-50 flex w-16 flex-col-reverse">
     <div
       class="bg-accent/50 flex w-full flex-1 flex-col rounded-full border transition-all"
       :class="colapse ? 'max-h-16' : 'max-h-full'"
