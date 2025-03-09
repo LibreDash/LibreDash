@@ -18,7 +18,9 @@
       <NavigationButton icon="lucide:skip-back" />
       <NavigationButton icon="lucide:play" />
       <NavigationButton icon="lucide:skip-forward" />
-      <NavigationButton icon="lucide:layout-grid" />
+      <NuxtLink to="/app">
+        <NavigationButton icon="lucide:layout-grid" />
+      </NuxtLink>
     </div>
   </div>
 </template>
